@@ -93,64 +93,17 @@ The following KPIs were developed to evaluate business performance:
 
 The analysis was conducted using SQL to answer critical business questions.
 
-### Total Revenue
-
-```sql
-SELECT ROUND(SUM(total_price),2) AS Total_Revenue
-FROM pizza_sales;
-```
-
-### Average Order Value
-
-```sql
-SELECT ROUND(
-SUM(total_price) /
-COUNT(DISTINCT order_id),2)
-AS Avg_Order_Value
-FROM pizza_sales;
-```
-
-### Total Orders
-
-```sql
-SELECT COUNT(DISTINCT order_id)
-AS Total_Orders
-FROM pizza_sales;
-```
-
-### Top 5 Best-Selling Pizzas
-
-```sql
-SELECT pizza_name,
-SUM(quantity) AS Total_Sold
-FROM pizza_sales
-GROUP BY pizza_name
-ORDER BY Total_Sold DESC
-LIMIT 5;
-```
-
-### Bottom 5 Performing Pizzas
-
-```sql
-SELECT pizza_name,
-SUM(quantity) AS Total_Sold
-FROM pizza_sales
-GROUP BY pizza_name
-ORDER BY Total_Sold ASC
-LIMIT 5;
-```
-
----
 
 # 📈 Dashboard Features
 
-The Power BI dashboard was designed to provide an executive-level view of business performance.
+The Power BI dashboard was designed to provide an executive-level  of business performance.
 
 ### Executive KPI Section
 - Total Revenue
 - Total Orders
 - Total Pizzas Sold
 - Average Order Value
+- Average Pizza Price
 
 ### Sales Trend Analysis
 - Daily Sales Trend
