@@ -36,7 +36,7 @@ This project analyzes pizza sales data using SQL and Power BI to uncover busines
 - Interactive Filters and Visualizations
 
 ## Dashboard Preview
-![Maven_Pizza_dataset](Pizza_Sales_dashboard_image)
+![Maven_Pizza_dataset](Pizza_Sales_dashboard_image.jpg)
 
 ## Project Files
 - SQL Queries
