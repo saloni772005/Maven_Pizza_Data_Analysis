@@ -35,6 +35,9 @@ This project analyzes pizza sales data using SQL and Power BI to uncover busines
 - Category-wise and Size-wise Performance
 - Interactive Filters and Visualizations
 
+## Dashboard Overview
+"C:\Users\LENOVO\Downloads\Pizza_Sales_dashboard_image.jpg"
+
 ## Project Files
 - SQL Queries
 - Power BI Dashboard
